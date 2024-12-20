@@ -6,7 +6,7 @@ function RepositoryCard({ repository, isLast }) {
   const { name, type, language, size, updatedAt, assignee } = repository;
   return (
     <div
-      className={`bg-white pl-0.5 border-t border-gray-200 hover:bg-gray-50 ${
+      className={`bg-white pl-0.5 border-t border-b border-gray-200 hover:bg-gray-50 ${
         isLast ? "rounded-b-xl" : ""
       } `}
     >
