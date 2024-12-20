@@ -1,5 +1,5 @@
-#Clone the repository
-#run the command
+# Clone the repository
+# run the command
 ### `npm i`
 #run the command
 ### `npm start`
