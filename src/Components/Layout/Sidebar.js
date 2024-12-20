@@ -76,7 +76,7 @@ function Sidebar({ isOpen, onClose }) {
             </button>
           </div>
 
-          <div className="w-[180px] border rounded-lg border-gray-300 p-1 mb-4 ml-2 px-2 text-sm text-gray-600">
+          <div className="md:w-[180px] w-full border rounded-lg border-gray-300 p-1 mb-4 md:ml-2 px-2 text-sm text-gray-600">
             <div
               className="flex items-center justify-between cursor-pointer"
               onClick={() => setIsDropdownOpen(!isDropdownOpen)}

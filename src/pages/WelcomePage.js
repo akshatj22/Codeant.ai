@@ -18,9 +18,9 @@ function WelcomePage() {
         </div>
       </div>
 
-      
+
       <div className="flex-1 flex items-center flex-col bg-[#fafafa] justify-center p-4">
-        <div className="border content-center w-full max-w-[540px] min-h-[600px] rounded-lg bg-white px-4 md:px-6">
+        <div className="border content-center w-full max-w-[680px] min-h-[600px] rounded-lg bg-white px-4 md:px-6">
           <div className="flex items-center justify-center pt-6 mb-6">
             <img src={logo} alt="CodeAnt AI" className="w-10 h-10 mb-4" />
             <span className="text-xl font-normal font-satoshi">CodeAnt AI</span>
@@ -38,7 +38,7 @@ function WelcomePage() {
                 onSelect={setDeploymentType}
               />
               <hr />
-              <div className="flex min-h-[330px] items-start pb-6 justify-center">
+              <div className="flex min-h-[330px] items-start justify-center">
                 <LoginOptions deploymentType={deploymentType} />
               </div>
             </div>

@@ -68,7 +68,7 @@ function RepositoryList() {
       />
 
       <main className="w-full md:ml-[240px] flex-1">
-        <div className="md:p-8">
+        <div className="md:p-4">
           <div className="flex md:hidden items-center border border-gray-200 justify-between p-2 bg-white">
             <div className="flex items-center space-x-2">
               <img src={logo} alt="CodeAnt AI" className="w-6 h-6" />
