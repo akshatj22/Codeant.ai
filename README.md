@@ -1,7 +1,7 @@
 # Clone the repository
 # run the command
 ### `npm i`
-#run the command
+# run the command
 ### `npm start`
 
 ## The project will run on `localhost:3000`
